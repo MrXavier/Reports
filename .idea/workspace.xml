@@ -23,12 +23,19 @@
   </component>
   <component name="ProjectId" id="1RaODt0P2wm7Xl0UAKhUNrn42e1" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.crealytics.reports" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\marce\Documents\MARCELO\crealytics\git\Reports\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\marce\Documents\MARCELO\crealytics\git\Reports\src\main\resources\static" />
+      <recent name="C:\Users\marce\Documents\MARCELO\crealytics\git\Reports\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -49,7 +56,7 @@
       <module name="reports" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.crealytics.reports.*" />
+          <option name="PATTERN" value="com.crealytics.reports.listener.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,7 +68,7 @@
       <module name="reports" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.crealytics.reports.*" />
+          <option name="PATTERN" value="com.crealytics.reports.listener.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,7 +83,7 @@
       <module name="reports" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.crealytics.reports.*" />
+          <option name="PATTERN" value="com.crealytics.reports.listener.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,7 +121,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -132,6 +141,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/crealytics/reports/service/ReportServiceImpl.java</url>
           <line>41</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/crealytics/reports/listener/OnStartupListener.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
