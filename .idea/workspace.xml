@@ -8,6 +8,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="PATH_TO_GIT" value="C:\Program Files\Git\git-cmd.exe" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -17,6 +25,11 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.crealytics.reports" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -30,7 +43,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ReportsApplicationTests">
+  <component name="RunManager" selected="Application.ReportsApplication">
     <configuration name="ReportsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.crealytics.reports.ReportsApplication" />
       <module name="reports" />
@@ -77,9 +90,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReportsApplication" />
         <item itemvalue="JUnit.ReportsApplicationTests" />
         <item itemvalue="JUnit.ReportsApplicationTests.contextLoads" />
-        <item itemvalue="Application.ReportsApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -106,5 +119,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/crealytics/reports/controller/ReportController.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/crealytics/reports/service/ReportServiceImpl.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

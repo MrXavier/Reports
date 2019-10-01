@@ -113,4 +113,15 @@ public class ReportsApplicationTests {
 		;
 	}
 
+	@Test
+	public void testEmptyParams() throws Exception {
+		String site = "";
+		String month = "";
+		this.mockMvc.perform(get("/reports")
+				.requestAttr("site", site)
+				.requestAttr("month", month)
+				.accept(MediaType.APPLICATION_JSON))
+				.andExpect(status().isNotFound());
+	}
+
 }
