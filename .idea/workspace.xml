@@ -30,7 +30,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReportsApplication">
+  <component name="RunManager" selected="JUnit.ReportsApplicationTests">
     <configuration name="ReportsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.crealytics.reports.ReportsApplication" />
       <module name="reports" />
@@ -59,10 +59,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReportsApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="reports" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.crealytics.reports.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.crealytics.reports" />
+      <option name="MAIN_CLASS_NAME" value="com.crealytics.reports.ReportsApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReportsApplication" />
         <item itemvalue="JUnit.ReportsApplicationTests" />
+        <item itemvalue="JUnit.ReportsApplicationTests.contextLoads" />
+        <item itemvalue="Application.ReportsApplication" />
       </list>
     </recent_temporary>
   </component>
