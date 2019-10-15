@@ -22,7 +22,7 @@ This application is running under Spring Boot.
 
 ## Additional Technologies
 
-**Database:** H2database embeded in the application. The database is created during the startup of the application. In the end of the execution the database is deleted.
+**Database:** H2 database embeded in the application. The database is created during the startup of the application. In the end of the execution the database is deleted.
 
 **Tests:** The tests are defined as use case of the Junit. The tests of rest services have: Spring Web MVC for mock of the web infrastructure; JsonPath e hamcrest are used for access and assertions in the Json content. The tests have been made available in the structure: src/test/java.
 
