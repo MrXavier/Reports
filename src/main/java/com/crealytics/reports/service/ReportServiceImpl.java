@@ -2,6 +2,7 @@ package com.crealytics.reports.service;
 
 import com.crealytics.reports.model.Report;
 import com.crealytics.reports.repository.ReportRepository;
+import com.crealytics.reports.util.Month;
 import javassist.NotFoundException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -27,12 +28,12 @@ public class ReportServiceImpl implements ReportService {
     public ReportServiceImpl(ReportRepository reportRepository) {
         this.reportRepository = reportRepository;
         this.monthsMap = new HashMap<>(); // TODO make a property file and Object
-        monthsMap.put("1", "January");
-        monthsMap.put("2", "February");
-        monthsMap.put("JAN", "January");
-        monthsMap.put("FEB", "February");
-        monthsMap.put("JANUARY", "January");
-        monthsMap.put("FEBRUARY", "February");
+        monthsMap.put("1", Month.JANUARY.getValue());
+        monthsMap.put("2", Month.FEBRUARY.getValue());
+        monthsMap.put("JAN", Month.JANUARY.getValue());
+        monthsMap.put("FEB", Month.FEBRUARY.getValue());
+        monthsMap.put("JANUARY", Month.JANUARY.getValue());
+        monthsMap.put("FEBRUARY", Month.FEBRUARY.getValue());
     }
 
     @Override

@@ -3,6 +3,7 @@ package com.crealytics.reports.controller;
 import com.crealytics.reports.model.Report;
 import com.crealytics.reports.service.ReportService;
 import com.crealytics.reports.service.ReportServiceImpl;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -25,9 +26,12 @@ public class ReportController {
     public ResponseEntity<List<Report>> findBySiteAndMonth(@RequestParam String site, @RequestParam String month) {
         List<Report> reports = null;
         try {
+            if(StringUtils.isBlank(site) || StringUtils.isBlank(month)){
+                return new ResponseEntity(HttpStatus.NOT_FOUND);
+            }
             reports = reportService.findBySiteAndMonth(site, month);
         } catch (Exception e) {
-            new ResponseEntity(HttpStatus.NOT_FOUND);
+            return new ResponseEntity(HttpStatus.NOT_FOUND);
         }
         return new ResponseEntity<List<Report>>(reports, HttpStatus.OK);
     }
