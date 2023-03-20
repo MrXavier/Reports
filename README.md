@@ -1,12 +1,9 @@
 # Reports
-This repository is created to implement the solution for Crealytics recruitment challenge.
+This repository is a RESTful micro service responsible for two simple scenarios: read CSV file on startup, store the data (Reports) in a memory Database and expose an API to get the Reports by site and month.
 
-It's a RESTful service responsible for two simple scenarios.
+In this service has an embedded application server and a database.
 
-In this application, there is an embedded application server and a database.
-
-This application is running under Spring Boot.
-
+This application is running over Spring Boot framework.
 
 ## Used Technologies
 
